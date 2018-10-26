@@ -60,21 +60,67 @@
     </div>
   </header>
   <section>
-    section
-  </section>
-  <aside class="">
+    <!--.Parte donde empieza la zona de busqueda -->
+    <div class="s004">
+      <form>
+        <fieldset>
+          <legend>ESCRIBE LO QUE BUSCAS</legend>
+          <div class="buscador_dentro">
+            <div class="buscador_centro">
+              <input class="form-control"  type="text" placeholder="Escribe para buscar..." />
+              <button class="btn-search" type="button">
+              </button>
+            </div>
+          </div>
+          <div class="sugerencias">
+            <span>Flexografia</span>
+            <span>Servicios</span>
+            <span>Sobre Nosotros</span>
+            <span>Termoformados</span>
+            <span>Ubicacion</span>
+          </div>
+        </fieldset>
+      </form>
+    </div>
 
+  </section>
+  <main>
+      <div id="hits"></div>
+      <div id="pagination"></div>
+  </main>
+  <aside class="">
   </aside>
   <footer>
     <section class="wrapper_footer">
       <div class="div_informacion_contacto">
-        informacion de contacto
+        <h3>Informacion de Contacto</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+           culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla</p>
       </div>
       <div class="div_google_map">
-        mapa de google
+        <h3>Ubicacion</h3>
+        <div class="container_map">
+          <iframe class="container_direction"
+          src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;coord=-2.1205315183865934,-79.94203805923463&amp;q=Av.%2042%20N-O%2C%20Calle%2022%20NO+(Flexoprint)&amp;ie=UTF8&amp;t=h&amp;z=17&amp;iwloc=B&amp;output=embed"
+          frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+          <a href="https://www.maps.ie/create-google-map/">Google Maps iframe generator</a></iframe></div><br />
       </div>
       <div class="subscripcion">
-        subscripcion
+        <h3>Subscribase</h3>
+        <section class="subscripcion>
+            <form class="subscripcion_form" accept-charset="utf-8" action="index.html" method="post">
+            <p>Subscribe to our newsletter.</p>
+            <p>
+              <input type="text" name="email" placeholder="Ingrese su correo" value="" id="">
+            </p>
+            <p>
+              <input type="submit" value="Siganos!">
+            </p>
+
+          </form>
+        </section>
       </div>
     </section>
   </footer>
