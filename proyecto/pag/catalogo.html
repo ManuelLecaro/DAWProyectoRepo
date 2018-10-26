@@ -5,8 +5,8 @@
 	<title>​FLEXOPRINT C LTDA - Elaboración e impresión de auto-adhesivos</title>
 	 <link rel="stylesheet" href="../css/normalize.css">
 	 <link rel="stylesheet" type="text/css" href="../css/estilos.css">
-	 <link rel="stylesheet" type="text/css" href="../css/viewport.css">
-	 <link rel="stylesheet" type="text/css" href="../css/gridview.css">
+	  <link rel="stylesheet" type="text/css" href="../css/viewport.css" media="screen and (min-width:1600px)">
+	 <link rel="stylesheet" type="text/css" href="../css/gridview.css" media="screen and (min-width:380px)">
 	<meta name="description" content="Elaboración e impresión de auto-adhesivos para la industria alimenticia hasta la industria médica.">
 	<meta name="keywords" content="Elaboracion de auto-adhesivos,  impresión de auto-adhesivos">
 	<link rel="shortcut icon" href="../img/logo.ico">
@@ -44,7 +44,9 @@
 					</nav><!--.nav-->
 				</div><!--.navegacion-->
 				<div class="busqueda">
-					<input type="search" name="busqueda" placeholder="Buscar" aria-label="Cuadro de Busqueda">
+					<form>
+						<input type="search" name="busqueda" placeholder="Buscar" aria-label="Cuadro de Busqueda">
+					</form>
 				</div><!--busqueda-->
 			</section><!--superior-->
 			<section class="inferior">
@@ -58,6 +60,44 @@
 			</section><!--inferior-->
 		</div><!--.contenedor-hearder-->
 	</header><!--header-->
+	<div class="contenido">
+		<main class="principal">
+			<header>
+				<h2>Catálogo</h2>
+			</header>
+			<section class="servicios_top">
+				<article id="servicio1">
+					<img src="https://via.placeholder.com/150x150" alt="servicio1">
+					<h4>Servicio1</h4>
+				</article>
+				<article id="servicio2">
+					<img src="https://via.placeholder.com/150x150" alt="servicio2">
+					<h4>Servicio2</h4>
+				</article>
+				<article id="servicio3">
+					<img src="https://via.placeholder.com/150x150" alt="servicio3">
+					<h4>Servicio3</h4>
+				</article>
+			</section><!--servicios-->
+			<section class="servicio_individual">
+				<article id="presentacion1">
+					<h3>Servicio1</h3>
+					<img src="https://via.placeholder.com/150x150" alt="presentacion1">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum quas deleniti eum odit aspernatur rem, corporis quibusdam. Mollitia reprehenderit, officia? Possimus, deleniti. Aliquam velit, iusto debitis nemo illo quo molestias.</p>
+				</article>
+				<article id="presentacion2">
+					<h3>Servicio2</h3>
+					<img src="https://via.placeholder.com/150x150" alt="presentacion2">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum quas deleniti eum odit aspernatur rem, corporis quibusdam. Mollitia reprehenderit, officia? Possimus, deleniti. Aliquam velit, iusto debitis nemo illo quo molestias.</p>
+				</article>
+				<article id="presentacion2">
+					<h3>Servicio3</h3>
+					<img src="https://via.placeholder.com/150x150" alt="presentacion1">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum quas deleniti eum odit aspernatur rem, corporis quibusdam. Mollitia reprehenderit, officia? Possimus, deleniti. Aliquam velit, iusto debitis nemo illo quo molestias.</p>
+				</article>
+			</section><!--servicio_individual-->
+		</main><!--principal-->
+	</div><!--contenido-->
 	<footer>
 		<section class="wrapper_footer">
 			<div class="div_informacion_contacto">
@@ -78,7 +118,7 @@
 					</fieldset>
 				</form>
 			</div><!--subscripcion-->
-		</section>
+		</section><!--wrapper_footer-->
 	</footer><!--footer-->
 </body>
 </html>

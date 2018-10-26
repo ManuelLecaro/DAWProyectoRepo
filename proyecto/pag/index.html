@@ -5,20 +5,20 @@
 	<title>​FLEXOPRINT C LTDA - Elaboración e impresión de auto-adhesivos</title>
 	 <link rel="stylesheet" href="../css/normalize.css">
 	 <link rel="stylesheet" type="text/css" href="../css/estilos.css">
-	 <link rel="stylesheet" type="text/css" href="../css/viewport.css">
-	 <link rel="stylesheet" type="text/css" href="../css/gridview.css">
+	 <link rel="stylesheet" type="text/css" href="../css/view.css" media="screen and (min-width:1600px)">
+	 <link rel="stylesheet" type="text/css" href="../css/grid.css" media="screen and (min-width:380px)">
 	<meta name="description" content="Elaboración e impresión de auto-adhesivos para la industria alimenticia hasta la industria médica.">
 	<meta name="keywords" content="Elaboracion de auto-adhesivos,  impresión de auto-adhesivos">
 	<link rel="shortcut icon" href="../img/logo.ico">
 </head>
 <body>
 	<header role="banner">
-		<div class="contenedor-header">
-			<section class="superior">
-				<div class="logo">
+		<div class="contenedor-header col-12">
+			<section class="superior col-12">
+				<div class="logo col-6">
 					<img src="../img/logo.png" alt="logoFlexoprint">
 				</div>
-				<div class="navegacion">
+				<div class="navegacion col-4">
 					<nav role="navigation">
 						<ul>
 						    <li><a href="#">Inicio</a></li>
@@ -43,8 +43,10 @@
 						</ul>
 					</nav><!--.nav-->
 				</div><!--.navegacion-->
-				<div class="busqueda">
-					<input type="search" name="busqueda" placeholder="Buscar" aria-label="Cuadro de Busqueda">
+				<div class="busqueda col-2">
+					<form>
+						<input type="search" name="busqueda" placeholder="Buscar" aria-label="Cuadro de Busqueda">
+					</form>
 				</div><!--busqueda-->
 			</section><!--superior-->
 			<section class="inferior">
@@ -58,6 +60,46 @@
 			</section><!--inferior-->
 		</div><!--.contenedor-hearder-->
 	</header><!--header-->
+	<div class="contenido">
+		<main class="principal">
+			<section id="superior">
+				<h2>Quiénes Somos</h2>
+				<article>
+					<img src="https://via.placeholder.com/100x100" alt="imagen1">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste soluta ad voluptatibus, inventore sit ex magni assumenda corrupti totam nisi, natus fugiat doloribus aut, minima laborum blanditiis. Temporibus deserunt, eius.</p>
+				</article>
+				<article>
+					<img src="https://via.placeholder.com/100x100" alt="imagen1">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste soluta ad voluptatibus, inventore sit ex magni assumenda corrupti totam nisi, natus fugiat doloribus aut, minima laborum blanditiis. Temporibus deserunt, eius.</p>
+				</article>
+				<article>
+					<img src="https://via.placeholder.com/100x100" alt="imagen1">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste soluta ad voluptatibus, inventore sit ex magni assumenda corrupti totam nisi, natus fugiat doloribus aut, minima laborum  . Temporibus deserunt, eius.</p>
+				</article>
+			</section><!--superior-->
+			<section id="medio">
+				<h2>Nuestro Servicios</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero sapiente animi, distinctio tenetur consectetur accusamus delectus ex, soluta architecto eius aperiam laboriosam. Aliquid, aperiam. Ratione voluptatem voluptas alias repudiandae ducimus.</p>
+				<img src="https://via.placeholder.com/100x100" alt="nuestros servicios">
+			</section><!--medio-->
+			<section id="inferior">
+				<h2>Clientes que hemos servido</h2>
+				<div>
+					<img src="https://via.placeholder.com/100x100" alt="imagen">
+				</div>
+				<div>
+					<img src="https://via.placeholder.com/100x100" alt="imagen">
+				</div>
+				<div>
+					<img src="https://via.placeholder.com/100x100" alt="imagen">
+				</div>
+				<div>
+					<img src="https://via.placeholder.com/100x100" alt="imagen">
+				</div>
+				<input type="submit" value="Unase Ahora">
+			</section><!--inferior-->
+		</main><!--principal-->
+	</div><!--contenido-->
 	<footer>
 		<section class="wrapper_footer">
 			<div class="div_informacion_contacto">
@@ -78,7 +120,7 @@
 					</fieldset>
 				</form>
 			</div><!--subscripcion-->
-		</section>
+		</section><!--wrapper_footer-->
 	</footer><!--footer-->
 </body>
 </html>
