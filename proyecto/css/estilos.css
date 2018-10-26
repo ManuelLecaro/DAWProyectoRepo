@@ -1,7 +1,16 @@
 /*! Página de estilos*/
-
-div.contenedor-header{
-
-	background-color: #A0F3A4
-	
+html {
+  box-sizing: border-box;
 }
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+* {
+  margin:0;
+  padding:0;
+}
+
+img.logo{
+	width: 100%;
+}
+
