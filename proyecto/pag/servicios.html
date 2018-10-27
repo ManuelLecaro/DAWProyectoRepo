@@ -6,11 +6,17 @@
 	<meta name="description" content="Servicios de impresi[on de auto-adhesivos">
 	<meta name="keywords" content="auto-adhesivos, flexografia, imprenta">
 	<link rel="shortcut icon" href="../img/logo.ico">
+	<link rel="stylesheet" type="text/css" href="../css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="../css/estilos.css" media="screen and (min-width:1600px)">
+    <link rel="stylesheet" type="text/css" href="../css/estilos.css" media="screen and (min-width:380px)">
+     <link rel="stylesheet" type="text/css" href="../css/estilos.css">
 </head>
 <body>
-	<div class="contenedor_header">
-		<div id="logo"> Imagen de Flexoprint</div>
-		<div id="navegation">
+	<div class="contenedor-header col-12">
+		<div id="logo" class="logo col-5"> 
+			<img src="../img/logo.png" alt="logoFlexoprint col-5">
+		</div>
+		<div class="navegacion col-5" id="navegation">
 			<nav role="navigation">
 					<ul>
 					    <li><a href="#">Inicio</a></li>
@@ -46,53 +52,42 @@
 	<div class="poster_inicio"></div>
 
 	<section>
-		<div class="contenedor_servicio1">
-			<h2>Impresion Flexografica</h2>
+		<div class="col-12">
+			<h2 class="servicios">Impresion Flexografica</h2>
 		</div>
-		<div class="contenedor_servicio2">
-			<h2>Servicio de Corte</h2>
+		<div class="col-12">
+			<h2 class="servicios">Servicio de Corte</h2>
 		</div>
-		<div class="contenedor_servicio3">
-			<h2>Termoformados</h2>
+		<div class="col-12">
+			<h2 class="servicios">Termoformados</h2>
 		</div>
-		<div class="contenedor_servicio4">
-			<h2>Aluminio Farmaceutico</h2>
+		<div class="col-12">
+			<h2 class="servicios">Aluminio Farmaceutico</h2>
 		</div>
 	</section>
 
 
 	<footer>
-		<section class="wrapper_footer">
-			<div class="div_informacion_contacto">
-				<h3>Informacion de Contacto</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-					sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-					 culpa qui officia deserunt mollit anim id est laborum.</p>
-				<p>reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla</p>
-			</div>
-			<div class="div_google_map">
-				<h3>Ubicacion</h3>
-				<div class="container_map">
-					<iframe class="container_direction"
-					src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;coord=-2.1205315183865934,-79.94203805923463&amp;q=Av.%2042%20N-O%2C%20Calle%2022%20NO+(Flexoprint)&amp;ie=UTF8&amp;t=h&amp;z=17&amp;iwloc=B&amp;output=embed"
-					frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
-					<a href="https://www.maps.ie/create-google-map/">Google Maps iframe generator</a></iframe></div><br />
-			</div>
-			<div class="subscripcion">
-				<h3>Subscribase</h3>
-				<section class="subscripcion>
-					<form class="subscripcion_form" accept-charset="utf-8" action="index.html" method="post">
-						<p>Subscribe to our newsletter.</p>
-						<p>
-							<input type="text" name="email" placeholder="Ingrese su correo" value="" id="">
-						</p>
-						<p>
-							<input type="submit" value="Siganos!">
-						</p>
-					</form>
-				</section>
-			</div>
-		</section>
-	</footer>
+		<section class="wrapper_footer col-12">
+			<div class="div_informacion_contacto col-4">
+				<h3>Información de contacto</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel aliquid ullam eius rerum, cum sed quo facilis totam sit hic, autem inventore dignissimos sequi modi a tempore ipsam ut nam!</p>
+			</div><!--informacion-->
+			<div class="div_google_map col-4">
+				<h3>Ubicación</h3>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.0863552491605!2d-79.94222288589629!3d-2.120427498454333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d72b7b7a6fc65%3A0x366eea06daa0acfc!2sFlexoprint+Cia.+Ltda.!5e0!3m2!1ses!2sec!4v1540517589952" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</div><!--ubicacion-->
+			<div class="subscripcion col-4">
+				<form class="formulario">
+					<fieldset>
+						<legend>Suscribirse</legend>
+						<input type="text" nombre="nombre" placeholder="nombre" id="nombre" autocomplete="on" required><br><br>
+						<input type="email" name="email" placeholder="correo@dominio.com" required><br><br>
+						<input type="submit" value="Enviar">
+					</fieldset>
+				</form>
+			</div><!--subscripcion-->
+		</section><!--wrapper_footer-->
+	</footer><!--footer-->
 </body>
 </html>

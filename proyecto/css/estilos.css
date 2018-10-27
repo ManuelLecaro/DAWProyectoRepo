@@ -109,3 +109,17 @@ section.datos_informacion span{
 section.datos_informacion p{
 	text-align: center;
 }
+
+/*-----------Estilos para imagenes de noticias-----------------*/
+img.container{
+	background-size: cover;
+	height: 150px;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+/*-------Estilos para servicios----------*/
+.servicios{
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
