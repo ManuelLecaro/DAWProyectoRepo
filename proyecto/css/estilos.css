@@ -101,5 +101,11 @@ h2{
 }
 /*-----------------------------------*/
 
+/*---contactenos----*/
+section.datos_informacion span{
+	font-weight: bold;
+}
 
-
+section.datos_informacion p{
+	text-align: center;
+}
