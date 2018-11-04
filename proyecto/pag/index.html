@@ -10,61 +10,65 @@
 	<link rel="shortcut icon" href="../img/logo.ico">
 </head>
 <body>
-	<div class="container">
-		<div class="jumbotron jumbotron-fluid align-middle">
-		<header class="row">
-			<div class="col-xl-3 col-md-3">
-			<div class="logo text-center col-xl-6 col-md-6">
-				<img class="img-fluid" src="../img/logo.png" alt="logoFlexoprint">
+	<div class="container container-fluid col-12">
+		<div id="logo" class="logo col-5">
+			<img src="../img/logo.png" alt="logoFlexoprint col-5">
+		</div>
+		<nav class="sticky-top navbar navbar-expand-lg navbar-dark bg-info col-xl-12">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Producto
+						</a>
+						<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="#">Producto1</a>
+							<a class="dropdown-item" href="#">Producto2</a>
+							<a class="dropdown-item" href="#">Producto3</a>
+						</ul>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Flexografía
+						</a>
+						<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="#">Producto1</a>
+							<a class="dropdown-item" href="#">Producto2</a>
+							<a class="dropdown-item" href="#">Producto3</a>
+						</ul>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" href="#">Noticias <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" href="#">Contáctenos <span class="sr-only">(current)</span></a>
+					</li>
+				</ul>
+				<form class="form-inline ml-auto">
+					<div class="md-form my-0">
+						<input class="form-control" type="text" placeholder="Search" aria-label="Search">
+					</div>
+					<button href="#!" class="btn btn-outline-white btn-md my-0 ml-sm-2" type="submit">Buscar</button>
+				</form>
 			</div>
-			</div><!--col-->
-		</header>
-		</div><!--jumbotrom row-->
-		<div class="row">
-				<div class="contenedor-header">
-					<section class="superior">
-						<div class="navegacion">
-							<nav>
-								<ul>
-								    <li><a href="#">Inicio</a></li>
-								    <li><a href="#">Producto</a>
-										<ul>
-										    <li><a href="#">Producto1</a></li>
-										    <li><a href="#">Producto2</a></li>
-										    <li><a href="#">Producto3</a></li>
-										    <li><a href="#">Producto4</a></li>
-										</ul>
-								    </li>
-								    <li><a href="#">Flexografía</a>
-										<ul>
-										    <li><a href="#">Producto1</a></li>
-										    <li><a href="#">Producto2</a></li>
-										    <li><a href="#">Producto3</a></li>
-										    <li><a href="#">Producto4</a></li>
-										</ul>
-									</li>
-								    <li><a href="#">Noticias</a></li>
-								    <li><a href="#">Contáctenos</a></li>
-								</ul>
-							</nav><!--.nav-->
-						</div><!--.navegacion-->
-						<div class="busqueda">
-							<form>
-								<input type="search" name="busqueda" placeholder="Buscar" aria-label="Cuadro de Busqueda">
-							</form>
-						</div><!--busqueda-->
-					</section><!--superior-->
-					<section class="inferior">
-						<div class="imagen_fondo">
-							<img src="https://via.placeholder.com/1300x500" alt="imagen de fondo">
-						</div>
-						<div class="contenido_imagen_fondo">
-							<h2>Etiquetados y Laminados Flexibles</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus sint odio vero sed saepe molestias distinctio placeat odit, molestiae soluta. Voluptatibus laboriosam, minima cupiditate laudantium quos nemo fugit quia, sit?</p>
-						</div>
-					</section><!--inferior-->
-				</div><!--.contenedor-hearder-->
-		</div><!--row-->
+		</nav>
+		<section class="inferior">
+			<div class="imagen_fondo">
+				<img src="https://via.placeholder.com/1300x500" alt="imagen de fondo">
+			</div>
+			<div class="contenido_imagen_fondo">
+				<h2>Etiquetados y Laminados Flexibles</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus sint odio vero sed saepe molestias distinctio placeat odit, molestiae soluta. Voluptatibus laboriosam, minima cupiditate laudantium quos nemo fugit quia, sit?</p>
+			</div>
+		</section><!--inferior-->
+
 		<div class="contenido">
 			<main class="principal">
 				<section id="superior" class="row">
@@ -108,26 +112,26 @@
 			</main><!--principal-->
 		</div><!--contenido-->
 		<footer>
-				<section class="wrapper_footer row">
-						<div class="col-xl-4 col-md-4">
-							<h3>Información de contacto</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel aliquid ullam eius rerum, cum sed quo facilis totam sit hic, autem inventore dignissimos sequi modi a tempore ipsam ut nam!</p>
-						</div><!--informacion-->
-						<div class="col-xl-5 col-md-5">
-							<h3>Ubicación</h3>
-							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.0863552491605!2d-79.94222288589629!3d-2.120427498454333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d72b7b7a6fc65%3A0x366eea06daa0acfc!2sFlexoprint+Cia.+Ltda.!5e0!3m2!1ses!2sec!4v1540517589952" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-						</div><!--ubicacion-->
-						<div class="col-xl-3 col-md-3">
-							<form >
-								<fieldset>
-									<legend>Suscribirse</legend>
-									<input type="text" nombre="nombre" placeholder="nombre" id="nombre" autocomplete="on" required><br><br>
-									<input type="email" name="email" placeholder="correo@dominio.com" required><br><br>
-									<input type="submit" value="Enviar">
-								</fieldset>
-							</form>
-						</div><!--subscripcion-->
-				</section><!--wrapper_footer-->
+			<section class="wrapper_footer row">
+				<div class="col-xl-4 col-md-4">
+					<h3>Información de contacto</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel aliquid ullam eius rerum, cum sed quo facilis totam sit hic, autem inventore dignissimos sequi modi a tempore ipsam ut nam!</p>
+				</div><!--informacion-->
+				<div class="col-xl-5 col-md-5">
+					<h3>Ubicación</h3>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.0863552491605!2d-79.94222288589629!3d-2.120427498454333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d72b7b7a6fc65%3A0x366eea06daa0acfc!2sFlexoprint+Cia.+Ltda.!5e0!3m2!1ses!2sec!4v1540517589952" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div><!--ubicacion-->
+				<div class="col-xl-3 col-md-3">
+					<form >
+						<fieldset>
+							<legend>Suscribirse</legend>
+							<input type="text" nombre="nombre" placeholder="nombre" id="nombre" autocomplete="on" required><br><br>
+							<input type="email" name="email" placeholder="correo@dominio.com" required><br><br>
+							<input type="submit" value="Enviar">
+						</fieldset>
+					</form>
+				</div><!--subscripcion-->
+			</section><!--wrapper_footer-->
 		</footer><!--footer-->
 	</div><!--container-->
 	<script src="../js/bootstrap.min.js"></script>
