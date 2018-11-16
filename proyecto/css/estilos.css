@@ -4,6 +4,7 @@
 
 
 div.imagen_fondo{
+
 	position: relative;
 	display: block;
 }
@@ -17,22 +18,49 @@ div.contenido_imagen_fondo p{
 	text-align: justify;
 }
 /*-------footer--------------------------*/
+footer{
+	background-color: rgba(0, 0, 0, .7)
+}
+footer{
+	text-align: center;
+	padding: 10px 20px;
+	color: white;
+}
+
+div.informacion{
+	padding: 20px 0;
+	border-right: 10px solid white;
+}
+div.ubicacion{
+	padding: 20px 0;
+	border-right: 10px solid white;
+}
+div.ubicacion iframe{
+	padding: 0 0 0 40px;
+}
+div.formulario{
+	padding: 20px 0;
+}
+div.formulario legend{
+	color: white;
+	font-weight: bold;
+	padding-top: 10px;
+	padding-bottom: 50px;
+}
+div.formulario form{
+	padding: 0 0 0 30px;
+}
+
 
 /*---------------------------------------*/
 /*-------Principal-----------------------*/
 h2{
-	text-align: center
+	text-align: center;
 }
 /*-----------------------------------*/
 
 /*---contactenos----*/
-section.datos_informacion span{
-	font-weight: bold;
-}
 
-section.datos_informacion p{
-	text-align: center;
-}
 
 /*-----------Estilos para imagenes de noticias-----------------*/
 img.container{
@@ -47,3 +75,12 @@ img.container{
 	margin-top: 3%;
 	margin-bottom: 3%;
 }
+
+div.imagen_fondo{
+	padding: 20px 0;
+}
+
+div.contenido{
+	padding: 50px 0;
+}
+
