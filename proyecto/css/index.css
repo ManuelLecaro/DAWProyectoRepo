@@ -1,0 +1,32 @@
+section#superior{
+	padding-bottom: 70px;
+	border-bottom: 10px solid black; 
+}
+.centar img{
+	padding: 30px 110px;
+}
+section#medio{
+	padding: 80px 0;
+	border-bottom: 10px solid black; 
+}
+section#medio h2{
+	padding-bottom: 50px;
+}
+section#medio img{
+	padding-right: 60px;
+	height: 350px;
+}
+section#medio p{
+	padding: 80px 120px 0 120px;
+	text-justify: auto;
+}
+section#inferior{
+	padding: 80px 0;
+}
+section#inferior div img{
+	padding: 50px;
+}
+section#inferior div input{
+	margin-left: auto;
+	margin-right: auto;
+}

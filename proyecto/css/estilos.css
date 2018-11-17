@@ -1,5 +1,9 @@
 
-/*------Index-------*/
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
 /*-------Estilo para el header--------------*/
 
 
@@ -13,9 +17,16 @@ div.contenido_imagen_fondo{
 	position: absolute;
 	bottom: 100px;
 	text-align: center;
+	background-color: rgba(0, 0, 0, .5);
 }
 div.contenido_imagen_fondo p{
+
+	padding: 20px 15px;
+	color: white;
 	text-align: justify;
+}
+div.contenido_imagen_fondo h2{
+	color: white;
 }
 /*-------footer--------------------------*/
 footer{
@@ -82,5 +93,8 @@ div.imagen_fondo{
 
 div.contenido{
 	padding: 50px 0;
+}
+span{
+	font-weight: bold;
 }
 
