@@ -1,0 +1,23 @@
+.servicios_top{
+	padding: 60px 0;
+	text-align: center;
+	
+}
+.servicios_top div{
+	border: 2px solid black;
+	margin: 0 50px;
+}
+.servicios_top div img{
+	padding: 10px 0 10px 0 ;
+}
+.servicio_individual{
+	padding-top: 60px ;
+	border-top: 10px solid black;
+}
+
+.servicio_individual h3{
+	text-align: center;
+}
+.servicio_individual ul li{
+	font-size: 20px;
+}
