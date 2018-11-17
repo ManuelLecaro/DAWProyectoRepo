@@ -21,3 +21,14 @@
 .servicio_individual ul li{
 	font-size: 20px;
 }
+
+article[id^="presentacion"]{
+	padding: 60px 0px;
+	border-top: 10px solid black;
+	font-size: 20px;
+}
+ article h3{
+ 	text-align: center;
+ 	padding-bottom: 30px;
+ }
+
