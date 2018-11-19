@@ -1,0 +1,12 @@
+header.titulo{
+	border: 2px solid black;
+}
+section.noticias{
+	padding: 20px 0;
+}
+img.imagen{
+	padding: 20px 100px;
+}
+.titulo_noticias{
+	padding: 10px 0;
+}
