@@ -4,9 +4,7 @@ header.titulo{
 section.noticias{
 	padding: 20px 0;
 }
-img.imagen{
-	padding: 20px 100px;
-}
-.titulo_noticias{
+
+p.titulo_noticias{
 	padding: 10px 0;
 }
