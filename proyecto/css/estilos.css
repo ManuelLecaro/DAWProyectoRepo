@@ -103,12 +103,9 @@ span{
 	position:absolute;
 	top: 250px;
 }
+
 #navigationMenu li{
 	list-style: none;
-	height: 39px;
-	padding: 28px 0;
-	width: 40px;
-	display: block;
 }
 
 #navigationMenu img{
@@ -116,4 +113,23 @@ span{
 	height: 60px;
 	left: 5px;
 	padding: 0;
+}
+#navigationMenu .facebook {
+	background-color: #3B5998;
+	padding: 7px;
+}
+#navigationMenu .twitter {
+	background-color: #0084b4;
+	padding: 7px;
+}
+#navigationMenu .instagram {
+	background-color: #db008d;
+	padding: 7px;
+}
+#navigationMenu a{
+	display: none;
+}
+#navigationMenu li:hover a{
+	color: white;
+	display: inline-block;
 }
