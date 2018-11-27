@@ -30,7 +30,7 @@
 						<a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
 					</li>
 					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="servicios" id="navbarDropdown" role="button"
+						<a class="nav-link dropdown-toggle" href="servicios.html" id="navbarDropdown" role="button"
 						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 							Producto
 						</a>
@@ -73,21 +73,44 @@
 				<header class="row">
 					<h2 class="col-xl-12 col-md-12">Catálogo</h2>
 				</header>
-				<section class=" row">
-					<div id="servicio1" class="col-xl-4 col-md-4">
-						<img class="w-100" src="../img/impresionFlexografica.jpg" alt="servicio1">
-						<h4>Impresión Flexográfica</h4>
-					</div>
-					<div id="servicio2" class="col-xl-4 col-md-4">
-						<img class="w-100" src="../img/celofan.jpg" alt="servicio2">
-						<h4>Impresión papel celofán</h4>
-					</div>
-					<div id="servicio3" class="col-xl-4 col-md-4">
-						<img class="w-100" src="../img/plastic1.jpg" alt="servicio3">
-						<h4>Termoformados</h4>
-					</div>
-				</section><!--servicios-->
 
+				<div class="col-12 col-xl-12 col-md-12 row">
+						<div class="col-3 col-xl-3 col-md-1">
+
+						</div>
+						<div id="carouselIndicators" class=" p-3 carousel slide col-6 col-xl-6 col-md-10"
+						data-ride="carousel">
+					  <ol class="carousel-indicators">
+					    <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
+					    <li data-target="#carouselIndicators" data-slide-to="1"></li>
+					    <li data-target="#carouselIndicators" data-slide-to="2"></li>
+					  </ol>
+					  <div class="carousel-inner">
+					    <div class="col-12 col-xl-12 col-md-12 text-center carousel-item active">
+					      <img class="d-block w-100" src="../img/impresionFlexografica.jpg" alt="First slide">
+								<div class="text-center carousel-caption d-none d-md-block">
+									<h5 class="display-4">Impresión Flexográfica</h5>
+								</div>
+					    </div>
+					    <div class="col-12 col-xl-12 col-md-12 text-center carousel-item">
+					      <img class="d-block w-100" src="../img/celofan.jpg" alt="Second slide">
+								<div class="carousel-caption d-none d-md-block">
+									<h5 class="display-4">Impresión Papel Celofán</h5>
+								</div>
+					    </div>
+					    <div class="col-12 col-xl-12 col-md-12 text-center carousel-item">
+					      <img class="d-block w-100" src="../img/plastic1.jpeg" alt="Third slide">
+								<div class="carousel-caption d-none d-md-block">
+									<h5 class=" display-4">Termoformados</h5>
+								</div>
+					    </div>
+					  </div>
+
+					</div>
+					<div class="col-3 col-xl-3 col-md-1">
+
+					</div>
+				</div>
 					<article id="presentacion1" class="row">
 						<h3 class="col-xl-12 col-md-12">Impresión Flexográfica</h3>
 						<img  class="col-xl-6 col-md-6" src="../img/barcode3.jpg" alt="presentacion1">
@@ -148,8 +171,10 @@
 			</section><!--wrapper_footer-->
 		</footer><!--footer-->
 	</div><!--container-->
-	<script src="../js/bootstrap.min.js"></script>
 	<script src="../js/jquery-3.3.1.slim.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+	<script src="../js/bootstrap.js"></script>
 	<script src="../js/popper.min.js"></script>
+	<script src="../js/carousel.js"></script>
 </body>
 </html>
