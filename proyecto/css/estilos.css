@@ -97,3 +97,23 @@ div.contenido{
 span{
 	font-weight: bold;
 }
+/*-----aside----*/
+
+#navigationMenu{
+	position:absolute;
+	top: 250px;
+}
+#navigationMenu li{
+	list-style: none;
+	height: 39px;
+	padding: 28px 0;
+	width: 40px;
+	display: block;
+}
+
+#navigationMenu img{
+	width: 60px;
+	height: 60px;
+	left: 5px;
+	padding: 0;
+}
