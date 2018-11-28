@@ -38,17 +38,12 @@ footer{
 	color: white;
 }
 
-div.informacion{
-	padding: 20px 0;
-	border-right: 10px solid white;
+.informacion,.ubicacion,.formulario{
+	border: 0.5pt solid white;
 }
-div.ubicacion{
-	padding: 20px 0;
-	border-right: 10px solid white;
-}
-div.ubicacion iframe{
-	padding: 0 0 0 40px;
-}
+
+
+
 div.formulario{
 	padding: 20px 0;
 }
@@ -58,9 +53,7 @@ div.formulario legend{
 	padding-top: 10px;
 	padding-bottom: 50px;
 }
-div.formulario form{
-	padding: 0 0 0 30px;
-}
+
 
 
 
@@ -102,6 +95,7 @@ span{
 #navigationMenu{
 	position:absolute;
 	top: 250px;
+	
 }
 
 #navigationMenu li{
@@ -111,7 +105,7 @@ span{
 #navigationMenu img{
 	width: 60px;
 	height: 60px;
-	left: 5px;
+	right: 150px;
 	padding: 0;
 }
 #navigationMenu .facebook {
