@@ -1,15 +1,4 @@
-.servicios_top{
-	padding: 60px 0;
-	text-align: center;
-	
-}
-.servicios_top div{
-	border: 2px solid black;
-	margin: 0 50px;
-}
-.servicios_top div img{
-	padding: 10px 0 10px 0 ;
-}
+
 .servicio_individual{
 	padding-top: 60px ;
 	border-top: 10px solid black;
@@ -24,8 +13,11 @@
 
 article[id^="presentacion"]{
 	padding: 60px 0px;
-	border-top: 10px solid black;
 	font-size: 20px;
+}
+article[id^="presentacion"] img{
+	width: 400px;
+	height: 300px;
 }
  article h3{
  	text-align: center;
