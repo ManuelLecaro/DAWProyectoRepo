@@ -19,6 +19,13 @@ div.contenido_imagen_fondo{
 	text-align: center;
 	background-color: rgba(0, 0, 0, .5);
 }
+
+div.set_background{
+	text-align: center;
+	background-color: rgba(0, 0, 0, .5);
+	color: white;
+}
+
 div.contenido_imagen_fondo p{
 
 	padding: 20px 15px;
@@ -95,7 +102,7 @@ span{
 #navigationMenu{
 	position:absolute;
 	top: 250px;
-	
+
 }
 
 #navigationMenu li{

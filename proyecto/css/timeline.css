@@ -133,6 +133,16 @@ main-timeline{
 .main-timeline .timeline:nth-child(5n+5) .timeline-icon{ color: #0071BD; }
 .main-timeline .timeline:nth-child(5n+5) .timeline-year{ color: #0071BD; }
 .main-timeline .timeline:nth-child(5n+5) .title{ color: #0071BD; }
+.main-timeline .timeline:nth-child(5n+6):before{ border-color: #EA3C14; }
+.main-timeline .timeline:nth-child(5n+6):after{ border-color: #EF5720; }
+.main-timeline .timeline:nth-child(5n+6) .timeline-icon{ color: #EA3C14; }
+.main-timeline .timeline:nth-child(5n+6) .timeline-year{ color: #EA3C14; }
+.main-timeline .timeline:nth-child(5n+6) .title{ color: #EA3C14; }
+.main-timeline .timeline:nth-child(5n+7):before{ border-color: #8CC63E; }
+.main-timeline .timeline:nth-child(5n+7):after{ border-color: #6CAF29; }
+.main-timeline .timeline:nth-child(5n+7) .timeline-icon{ color: #8CC63E; }
+.main-timeline .timeline:nth-child(5n+7) .timeline-year{ color: #8CC63E; }
+.main-timeline .timeline:nth-child(5n+7) .title{ color: #8CC63E; }
 @media screen and (max-width:1200px){
     .main-timeline .timeline:after{ border-radius: 88px 0 0 88px; }
     .main-timeline .timeline:nth-child(even):after{ border-radius: 0 88px 88px 0; }

@@ -4,7 +4,7 @@ function addNew(year, titulo, description) {
       "class": "timeline"
     });
     var a = $("<a/>",{
-      "class" : "timeline-content"
+      "class" : "timeline-content col-xl-12 col-md-12"
     });
     var span = $("<span/>", {
       "class": "timeline-year",
@@ -39,8 +39,7 @@ function addNew(year, titulo, description) {
 }
 
 function loadNewsJson() {
-   $.getJSON( "../json/timeline.json", function( data ) {
-     console.log("ii");
+   $.getJSON( "../data/timeline.json", function( data ) {
       $.each( data, function( key, val ) {
         addNew(val.year, val.name, val.description)
       });
