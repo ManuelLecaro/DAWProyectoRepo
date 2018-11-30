@@ -134,3 +134,11 @@ span{
 	color: white;
 	display: inline-block;
 }
+
+/*-------Estilo para estadisticas--------------*/
+.estadisticas div{
+	padding: 2%;
+	margin : 2%;
+	background-color: #f24309
+	color : white;
+}
