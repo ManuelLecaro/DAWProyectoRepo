@@ -142,3 +142,40 @@ span{
 	background-color: #f24309
 	color : white;
 }
+/*--------------------search-------------------------------*/
+.content-search{
+    width: 60%;
+    height: 30vh;
+    top: 70px;
+    left: 900px;
+    background: rgba(0,0,0,0.8);
+    display: none;
+}
+
+.content-table{
+    width: 20%;
+    height: auto;
+    margin-left: 10px;
+    overflow-y: visible;
+    overflow-x: hidden;
+    position: absolute;
+}
+
+.content-table table{
+    width: 20%;
+}
+
+tbody tr td a{
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+tbody tr td a:hover{
+    background: rgba(0,0,0,0.3);
+}
+
+#table_length, #table_filter, #table_info, #table_paginate{
+    display: none;
+}
