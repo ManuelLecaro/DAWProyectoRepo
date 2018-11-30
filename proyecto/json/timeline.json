@@ -1,0 +1,38 @@
+[
+  {
+  "year":"1905",
+  "name":"Flexografía",
+  "description":"Inventada en Francia, con una técnica de impresión en relieve,
+  usando tintas líquidas con secado rápido"
+  },
+  {
+  "year":"1911",
+  "name":"Desarrollo en plastico",
+  "description":"Primer desarrollo en láminas de plástico"
+  },
+  {
+  "year":"1937",
+  "name":"Cinta Scotch",
+  "description":"3M introduce la cinta Scotch"
+  },
+  {
+  "year":"1941",
+  "name":"Anilox",
+  "description":"Introducción de rollos anilox"
+  },
+  {
+  "year":"1954",
+  "name":"Polipropileno",
+  "description":"Descubren el polipropileno"
+  },
+  {
+  "year":"1998",
+  "name":"FLEXOPRINT",
+  "description":"Fundación de FLEXOPRINT"
+  },
+  {
+  "year":"2018",
+  "name":"Mercado",
+  "description":"Se estima que el mercado de la flexografia esta valorado en $35.76 billones"
+  }
+]
