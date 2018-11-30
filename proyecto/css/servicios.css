@@ -1,0 +1,41 @@
+img[id*="imagen"]{
+	width: 600px;
+	height: 400px;
+	background-repeat: inherit;
+}
+div#imagen1{
+	background-image: url('../img/barras.jpg')
+}
+div#imagen2{
+	background-image: url('../img/liner3.jpg.gif')
+}
+div#imagen3{
+	background-image: url('../img/plastic1.jpg')
+}
+div#imagen4{
+	background-image: url('../img/7.jpg')
+}
+div[id*="info"]{
+	color: white;
+	text-align: justify;
+	font-weight: bold;
+	overflow: hidden;
+	width: 600px;
+	height: 400px;
+	background-color: rgba(31, 31, 31,.8);
+	-webkit-transition: opacity 0.5s;
+	opacity: 0;
+}
+div[id*="imagen"]:hover div[id*="info"]{
+	opacity: 1;
+}
+p.headline{
+	position: absolute;
+	margin-top: 20px;
+	-webkit-transition: margin 0.2s;
+	margin-left: -70px;
+	font-size: 15px;
+}
+div[id*="imagen"]:hover p.headline{
+	margin-left: 70px;
+}

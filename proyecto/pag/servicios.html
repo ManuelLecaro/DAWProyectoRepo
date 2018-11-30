@@ -9,6 +9,7 @@
 	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="../css/estilos.css">
 	<link rel="stylesheet" type="text/css" href="../css/index.css">
+	<link rel="stylesheet" type="text/css" href="../css/servicios.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 </head>
 <body>
@@ -27,10 +28,16 @@
 						<a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
 					</li>
 					<li class="nav-item dropdown">
-            <a class="nav-link active" href="catalogo.html">Productos <span class="sr-only">(current)</span></a>
+						<a class="nav-link dropdown-toggle" href="catalogo.html" id="navbarDropdown" role="button"
+						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Producto
+						</a>
 					</li>
 					<li class="nav-item dropdown">
-						<a class="nav-link active" href="servicios.html">Servicios <span class="sr-only">(current)</span></a>
+						<a class="nav-link dropdown-toggle" href="servicios.html" id="navbarDropdown" role="button"
+						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Servicios
+						</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link active" href="noticias.html">Noticias <span class="sr-only">(current)</span></a>
@@ -68,24 +75,43 @@
 		<div class="poster_inicio"></div>
 
 		<section>
-			<div class="row">
-			<div class="col-6 text-center col-md-6 col-xl-6">
+			<div class="row justify-content-center">
+			<div class="col-6 text-center col-md-6 col-xl-6 align-content-center">
 				<h2 class="servicios">Impresion Flexografica</h2>
-				<img src="../img/barras.jpg" class="text-center col-md-9 w-100 col-xl-9 img-thumbnail img-fluid" alt="codigos"></img>
+				<div id="imagen1" class="text-center col-md-9 col-xl-9 img-thumbnail img-fluid">
+					<div id="info1">
+						<p class="headline">
+							ETIQUETAS <br><br>Tenemos a disposición de nuestros clientes etiquetas autoadhesivas impresas a full color y troqueladas según los requerimientos de los mismos, (cuadradas, rectangulares, redondas, ovaladas, etc.) en sus distintos materiales como son: papel, polipropileno blanco o transparente, material térmico y demás.<br><br>LAMINADOS FLEXIBLES<br><br>Presentación en rollos, impresión continua para sellado manual o automático. Éstos pueden ser: aluminio, papel bond, papel térmico, celofán, polietileno, PVC, laminados dobles, triples, para los distintos tipos de máquinas existentes en la industria en general.</p>
+				</div>	
+				</div>
 			</div>
-			<div class="col-6 text-center col-md-6 col-xl-6">
+			<div class="col-6 text-center col-md-6 col-xl-6 align-content-center">
 				<h2 class="servicios">Servicio de Corte</h2>
-				<img src="../img/liner3.jpg.gif" class="text-center col-md-10 w-100 col-xl-10 img-thumbnail img-fluid" alt="codigos"></img>
+				<div id="imagen2" class="text-center col-md-9 col-xl-9 img-thumbnail img-fluid">
+					<div id="info2">
+						<p class="headline">Código de barras<br><br>Etiquetas impresas con códigos de barras, tanto para el producto como para la unidad logísticas o caja, bajo la simbología GTIN-13, EAN-128, UPC-A, entre otros, en diferentes tamaños, presentaciones y materiales.
+						</p>
+				</div>	
+				</div>
 			</div>
 		</div>
-		<div class="row p-3">
-			<div class="text-center col-6 col-md-6 col-xl-6">
-				<h2 class="servicios">Termoformados</h2>
-				<img src="../img/plastic1.jpg" class="col-md-10 w-100 col-xl-10 img-thumbnail img-fluid" alt="codigos"></img>
+		<div class="row p-3 justify-content-center">
+			<div class=" col-6 col-md-6 col-xl-6 align-content-center">
+				<h2 class="servicios text-center">Termoformados</h2>
+				<div id="imagen3" class="text-center col-md-9 col-xl-9 img-thumbnail img-fluid">
+					<div id="info3">
+						<p class="headline"><span>Termoformados</span>BLISTERS <br><br>Nidos o cunas en los que se coloca el producto (en la industria farmacéutica: inyecciones y medicamentos en botellas pequeñas, etc.) que adherido al cartón es el empaque final de presentación del mismo. <br><br>Para ello se utiliza una máquina termoformadora manual o automática.Trabajos en películas muy finas (desde 100 hasta 500 micras) en materiales transparentes o blancos.</p>
+				</div>	
+				</div>
 			</div>
-			<div class="text-center col-6 col-md-6 col-xl-6">
+			<div class="text-center col-6 col-md-6 col-xl-6 align-content-center">
 				<h2 class="servicios">Aluminio Farmaceutico</h2>
-				<img src="../img/7.jpg" class="p-3 col-md-10 col-xl-10 w-100 img-thumbnail img-fluid" alt="codigos"></img>
+				<div id="imagen4" class="text-center col-md-9 col-xl-9 img-thumbnail img-fluid">
+					<div id="info4">
+						<p class="headline">Liners<br><br>
+							Liners de aluminio en toda medida, con o sin impresión (sellos de seguridad para envases plásticos).<br><br>Protección completa para el producto contenido en el envase. Evitan daños por humedad y plagas.</p>
+				</div>	
+				</div>
 			</div>
 		</div>
 		</section>
@@ -94,12 +120,12 @@
 			<ul id="navigationMenu">
 				<li>
 					<img src="../img/facebook.png" alt="facebook">
-					<a class="facebook" href="https://www.facebook.com/flexoprintec/" target="_blank"><span>Facebook</span></a>
+					<a class="facebook" href="https://www.facebook.com/flexoprintec/" target="_blank"><span>Facebook</span></a>	
 				</li>
 
 				<li>
 					<img src="../img/twitter.png" alt="twitter">
-					<a class="twitter" href="#" target="_blank"><span>Twitter</span></a>
+					<a class="twitter" href="#" target="_blank"><span>Twitter</span></a>	
 				</li>
 
 				<li>
@@ -122,7 +148,7 @@
 				</div><!--informacion-->
 				<div class="col-xl-4 col-md-4 ubicacion align-items-center">
 					<h3>Ubicación</h3>
-					<iframe class="w-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.0863552491605!2d-79.94222288589629!3d-2.120427498454333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d72b7b7a6fc65%3A0x366eea06daa0acfc!2sFlexoprint+Cia.+Ltda.!5e0!3m2!1ses!2sec!4v1540517589952" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.0863552491605!2d-79.94222288589629!3d-2.120427498454333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d72b7b7a6fc65%3A0x366eea06daa0acfc!2sFlexoprint+Cia.+Ltda.!5e0!3m2!1ses!2sec!4v1540517589952" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 				</div><!--ubicacion-->
 				<div class="col-xl-4 col-md-4 formulario align-items-center">
 					<form >
@@ -138,8 +164,8 @@
 			<div class="col-12 col-xl-12 col-md-12 p-3">Derechos Resevados FLEXOPRINT Cia. LTDA</div>
 		</footer><!--footer-->
 	</div>
-	<script src="../js/jquery-3.3.1.slim.min.js"></script>
 	<script src="../js/bootstrap.min.js"></script>
+	<script src="../js/jquery-3.3.1.slim.min.js"></script>
 	<script src="../js/popper.min.js"></script>
 </body>
 </html>
