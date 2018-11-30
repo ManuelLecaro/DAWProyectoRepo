@@ -20,9 +20,9 @@
 			<div id="logo" class="text-center logo col-2 col-xl-2">
 				<img src="../img/logo.resized.png" class="img-thumbnail img-fluid" alt="logoFlexoprint col-5">
 			</div>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav mr-auto">
@@ -30,22 +30,22 @@
 						<a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
 					</li>
 					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="servicios.html" id="navbarDropdown" role="button"
-						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							Producto
-						</a>
+            <a class="nav-link active" href="catalogo.html">Productos <span class="sr-only">(current)</span></a>
 					</li>
 					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="catalogo.html" id="navbarDropdown" role="button"
-						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							Servicios
-						</a>
+						<a class="nav-link active" href="servicios.html">Servicios <span class="sr-only">(current)</span></a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link active" href="noticias.html">Noticias <span class="sr-only">(current)</span></a>
 					</li>
 					<li class="nav-item active">
 						<a class="nav-link" href="contactenos.html">Contáctenos <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" href="nosotros.html">Nosotros<span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" href="timeline.html"> TimeLine <span class="sr-only">(current)</span></a>
 					</li>
 				</ul>
 				<form class="form-inline ml-auto">
@@ -69,7 +69,7 @@
 			</div>
 		</section><!--inferior-->
 		<div class="contenido">
-			<main class="principal container-fluid">
+			<main class="principal container-fluid justify-content-center">
 				<header class="row">
 					<h2 class="col-xl-12 col-md-12">Catálogo</h2>
 				</header>
@@ -111,9 +111,11 @@
 
 					</div>
 				</div>
-					<article id="presentacion1" class="row">
+					<article id="presentacion1" class="row border-top border-info align-content-center">
 						<h3 class="col-xl-12 col-md-12">Impresión Flexográfica</h3>
-						<img  class="col-xl-6 col-md-6" src="../img/barcode3.jpg" alt="presentacion1">
+						<div class="col-xl-5 col-md-5">
+						<img src="../img/barcode3.jpg" alt="presentacion1">
+						</div>
 						<ul class="col-xl-6 col-md-6">
 							<li>Etiquetas promocionales (rollos)</li>
 							<li>Etiquetas para la industria en general (rollos)</li>
@@ -122,19 +124,24 @@
 							<li>Sellos de Seguridad/ Liners</li>
 						</ul>
 					</article>
-					<article id="presentacion2" class="row">
+					<article id="presentacion2" class="row border-top border-info">
 						<h3 class="col-xl-12 col-md-12">Servicio de Corte</h3>
-						<img  class="col-xl-6 col-md-6" src="../img/5.jpg" alt="presentacion2">
-						<ul class="col-xl-6 col-md-6">
+						<div class="col-xl-5 col-md-5">
+							<img src="../img/5.jpg" alt="presentacion2">
+						</div>
+						<div class="col-xl-6 col-md-6">
+						<ul >
 							<li>Aluminio farmacéutico (rollos)</li>
 							<li>PVC farmacéutico (rollos)</li>
 							<li>Papel (rollos)</li>
 						</ul>
+						</div>
 					</article>
-					<article id="presentacion3" class="row">
+					<article id="presentacion3" class="row border-top border-info">
 						<h3 class="col-xl-12 col-md-12">Termoformados</h3>
-						<img  class="col-xl-4 col-md-4 w-50" src="../img/plastic 2.resized.jpg" alt="presentacion1">
-						<div class="col-xl-2 col-md-2"></div>
+						<div class="col-xl-5 col-md-5 w-50">
+						<img src="../img/plastic 2.resized.jpg" alt="presentacion1">
+						</div>
 						<ul class="col-xl-6 col-md-6">
 							<li>Nidos/ Cunetas (plástico)</li>
 						</ul>
@@ -187,6 +194,7 @@
 					</form>
 				</div><!--subscripcion-->
 			</section><!--wrapper_footer-->
+			<div class="col-12 col-xl-12 col-md-12 p-3">Derechos Resevados FLEXOPRINT Cia. LTDA</div>
 		</footer><!--footer-->
 	</div><!--container-->
 	<script src="../js/jquery-3.3.1.slim.min.js"></script>
