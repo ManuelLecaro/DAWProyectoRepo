@@ -8,6 +8,6 @@ d3.select(".estadisticas")
   .selectAll("div")
     .data(data)
   .enter().append("div")
-    .style("width", function(d) { return x(d) * 5 + "px"; })
+    .style("width", function(d) { return x(d) * 3 + "px"; })
     .style("background-color","rgb(135, 106, 97)")
     .text(function(d) { return d; });

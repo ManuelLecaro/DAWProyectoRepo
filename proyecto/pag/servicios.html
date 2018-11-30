@@ -18,26 +18,20 @@
 			<div id="logo" class="text-center logo col-2 col-xl-2">
 				<img src="../img/logo.resized.png" class="img-thumbnail img-fluid" alt="logoFlexoprint col-5">
 			</div>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav mr-auto">
 					<li class="nav-item active">
 						<a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
 					</li>
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="catalogo.html" id="navbarDropdown" role="button"
-						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							Producto
-						</a>
+					<li class="nav-item active">
+            <a class="nav-link active" href="catalogo.html">Productos <span class="sr-only">(current)</span></a>
 					</li>
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="servicios.html" id="navbarDropdown" role="button"
-						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							Servicios
-						</a>
+					<li class="nav-item active">
+						<a class="nav-link active" href="servicios.html">Servicios <span class="sr-only">(current)</span></a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link active" href="noticias.html">Noticias <span class="sr-only">(current)</span></a>
@@ -54,7 +48,7 @@
 				</ul>
 				<form class="form-inline ml-auto">
 					<div class="md-form my-0">
-						<input class="form-control" type="text" placeholder="Search" aria-label="Search">
+						<input id="input-search" class="form-control" type="search" placeholder="Search" aria-label="Search">
 					</div>
 					<button href="#!" class="btn btn-outline-white btn-md my-0 ml-sm-2" type="submit">Buscar</button>
 				</form>
@@ -68,32 +62,32 @@
                         <td></td>
                     </tr>
                 </thead>
-                
+
                 <tbody>
                     <tr>
                         <td><a href="index.html">inicio</a></td>
                     </tr>
-                    
+
                     <tr>
                         <td><a href="catalogo.html">productos</a></td>
                     </tr>
-                    
+
                     <tr>
                         <td><a href="servicios.html">servicios</a></td>
                     </tr>
-                    
+
                     <tr>
                         <td><a href="noticias.html">noticias</a></td>
                     </tr>
-                    
+
                     <tr>
                         <td><a href="contactenos.html">contactenos</a></td>
                     </tr>
-                    
+
                     <tr>
                         <td><a href="nosotros.html">nosotros</a></td>
                     </tr>
-                    
+
                     <tr>
                         <td><a href="timeline.html">timeline</a></td>
                     </tr>
@@ -123,7 +117,7 @@
 					<div id="info1">
 						<p class="headline">
 							ETIQUETAS <br><br>Tenemos a disposición de nuestros clientes etiquetas autoadhesivas impresas a full color y troqueladas según los requerimientos de los mismos, (cuadradas, rectangulares, redondas, ovaladas, etc.) en sus distintos materiales como son: papel, polipropileno blanco o transparente, material térmico y demás.<br><br>LAMINADOS FLEXIBLES<br><br>Presentación en rollos, impresión continua para sellado manual o automático. Éstos pueden ser: aluminio, papel bond, papel térmico, celofán, polietileno, PVC, laminados dobles, triples, para los distintos tipos de máquinas existentes en la industria en general.</p>
-				</div>	
+				</div>
 				</div>
 			</div>
 			<div class="col-6 text-center col-md-6 col-xl-6 align-content-center">
@@ -132,7 +126,7 @@
 					<div id="info2">
 						<p class="headline">Código de barras<br><br>Etiquetas impresas con códigos de barras, tanto para el producto como para la unidad logísticas o caja, bajo la simbología GTIN-13, EAN-128, UPC-A, entre otros, en diferentes tamaños, presentaciones y materiales.
 						</p>
-				</div>	
+				</div>
 				</div>
 			</div>
 		</div>
@@ -142,7 +136,7 @@
 				<div id="imagen3" class="text-center col-md-9 col-xl-9 img-thumbnail img-fluid">
 					<div id="info3">
 						<p class="headline"><span>Termoformados</span>BLISTERS <br><br>Nidos o cunas en los que se coloca el producto (en la industria farmacéutica: inyecciones y medicamentos en botellas pequeñas, etc.) que adherido al cartón es el empaque final de presentación del mismo. <br><br>Para ello se utiliza una máquina termoformadora manual o automática.Trabajos en películas muy finas (desde 100 hasta 500 micras) en materiales transparentes o blancos.</p>
-				</div>	
+				</div>
 				</div>
 			</div>
 			<div class="text-center col-6 col-md-6 col-xl-6 align-content-center">
@@ -151,7 +145,7 @@
 					<div id="info4">
 						<p class="headline">Liners<br><br>
 							Liners de aluminio en toda medida, con o sin impresión (sellos de seguridad para envases plásticos).<br><br>Protección completa para el producto contenido en el envase. Evitan daños por humedad y plagas.</p>
-				</div>	
+				</div>
 				</div>
 			</div>
 		</div>
@@ -161,13 +155,13 @@
 				<h3>Porcentaje de pedidos según el Servicio</h3>
 			</div>
 			<div class="col-xl-12 col-md-12 row container container-fluid">
-				<div class="col-xl-6 col-md-6  estadisticas">
+				<div class="col-xl-6 col-md-8 col-8 estadisticas">
 
 				</div>
-				<div class="p-2 col-xl-6 col-md-6 container container-fluid estadisticas">
-					<h5 class="p-3">Impresion</h5>
+				<div class="p-2 col-xl-6 col-md-4 col-4 container container-fluid estadisticas">
+					<h5 class="p-2">Impresion</h5>
 					<h5 class="p-2">Corte</h5>
-					<h5 class="p-3">Aluminio</h5>
+					<h5 class="p-2">Aluminio</h5>
 					<h5 class="p-2">Termoformados</h5>
 				</div>
 			</div>
@@ -176,12 +170,12 @@
 			<ul id="navigationMenu">
 				<li>
 					<img src="../img/facebook.png" alt="facebook">
-					<a class="facebook" href="https://www.facebook.com/flexoprintec/" target="_blank"><span>Facebook</span></a>	
+					<a class="facebook" href="https://www.facebook.com/flexoprintec/" target="_blank"><span>Facebook</span></a>
 				</li>
 
 				<li>
 					<img src="../img/twitter.png" alt="twitter">
-					<a class="twitter" href="#" target="_blank"><span>Twitter</span></a>	
+					<a class="twitter" href="#" target="_blank"><span>Twitter</span></a>
 				</li>
 
 				<li>
@@ -220,13 +214,12 @@
 			<div class="col-12 col-xl-12 col-md-12 p-3">Derechos Resevados FLEXOPRINT Cia. LTDA</div>
 		</footer><!--footer-->
 	</div>
+	<script src="../js/jquery.js"></script>
+  <script src="../js/jquery.dataTables.min.js"></script>
 	<script src="../js/d3.min.js"></script>
 	<script src="../js/bootstrap.min.js"></script>
-	<script src="../js/jquery-3.3.1.slim.min.js"></script>
 	<script src="../js/popper.min.js"></script>
 	<script type="text/javascript" src="../js/graficos.js"></script>
-	<script src="../js/jquery.js"></script>
-    <script src="../js/jquery.dataTables.min.js"></script>
-    <script src="../js/search.js"></script>
+  <script src="../js/search.js"></script>
 </body>
 </html>
