@@ -1,1 +1,1 @@
-<?php include_once("..proyecto/pag/index.html"); ?>
+<?php header( 'Location: /index.html' ) ;  ?>
